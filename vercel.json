@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "public": true,
+  "builds": [
+    { "src": "simple_linear_reg_chart.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/simple_linear_reg_chart.html" }
+  ]
+}
